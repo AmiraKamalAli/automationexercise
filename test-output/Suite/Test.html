@@ -1,0 +1,229 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>30/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed May 10 22:03:00 AST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>44 seconds (44141 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='automation.testcases.SignupPageTest.Click_signup_Button()'><b>Click_signup_Button</b><br>Test class: automation.testcases.SignupPageTest</td>
+<td></td>
+<td>2</td>
+<td>automation.testcases.SignupPageTest@3246fb96</td></tr>
+<tr>
+<td title='automation.testcases.ConfirmCreateadaccountTest.Contiune()'><b>Contiune</b><br>Test class: automation.testcases.ConfirmCreateadaccountTest</td>
+<td></td>
+<td>0</td>
+<td>automation.testcases.ConfirmCreateadaccountTest@73ee04c8</td></tr>
+<tr>
+<td title='automation.testcases.ConfirmLoggedaccountTest.Contiune()'><b>Contiune</b><br>Test class: automation.testcases.ConfirmLoggedaccountTest</td>
+<td></td>
+<td>1</td>
+<td>automation.testcases.ConfirmLoggedaccountTest@7671cb68</td></tr>
+<tr>
+<td title='automation.testcases.AddressDetailsTest.CreateAccount()'><b>CreateAccount</b><br>Test class: automation.testcases.AddressDetailsTest</td>
+<td></td>
+<td>2</td>
+<td>automation.testcases.AddressDetailsTest@61386958</td></tr>
+<tr>
+<td title='automation.testcases.SignupPageTest.CreateRandomData()'><b>CreateRandomData</b><br>Test class: automation.testcases.SignupPageTest</td>
+<td></td>
+<td>0</td>
+<td>automation.testcases.SignupPageTest@3246fb96</td></tr>
+<tr>
+<td title='automation.testcases.ConfirmCreateadaccountTest.VerifyTextisvisable()'><b>VerifyTextisvisable</b><br>Test class: automation.testcases.ConfirmCreateadaccountTest</td>
+<td></td>
+<td>0</td>
+<td>automation.testcases.ConfirmCreateadaccountTest@73ee04c8</td></tr>
+<tr>
+<td title='automation.testcases.ConfirmLoggedaccountTest.VerifyTextisvisable()'><b>VerifyTextisvisable</b><br>Test class: automation.testcases.ConfirmLoggedaccountTest</td>
+<td></td>
+<td>11</td>
+<td>automation.testcases.ConfirmLoggedaccountTest@7671cb68</td></tr>
+<tr>
+<td title='automation.testcases.SignupPageTest.addEmail()'><b>addEmail</b><br>Test class: automation.testcases.SignupPageTest<br>Parameters: Guy, garth.fay@gmail.com, ahhx9otk, Guy, Effertz, Cole, Dare and Kuvalis, Gilda, Apt. 723, The Valley, California, North Elyseberg, 92423, 1-847-891-5162</td>
+<td></td>
+<td>0</td>
+<td>automation.testcases.SignupPageTest@3246fb96</td></tr>
+<tr>
+<td title='automation.testcases.SignupPageTest.addname()'><b>addname</b><br>Test class: automation.testcases.SignupPageTest<br>Parameters: Guy, garth.fay@gmail.com, ahhx9otk, Guy, Effertz, Cole, Dare and Kuvalis, Gilda, Apt. 723, The Valley, California, North Elyseberg, 92423, 1-847-891-5162</td>
+<td></td>
+<td>0</td>
+<td>automation.testcases.SignupPageTest@3246fb96</td></tr>
+<tr>
+<td title='automation.testcases.RegisterTest.checkNewsletter()'><b>checkNewsletter</b><br>Test class: automation.testcases.RegisterTest</td>
+<td></td>
+<td>0</td>
+<td>automation.testcases.RegisterTest@2e222612</td></tr>
+<tr>
+<td title='automation.testcases.RegisterTest.checkOptin()'><b>checkOptin</b><br>Test class: automation.testcases.RegisterTest</td>
+<td></td>
+<td>0</td>
+<td>automation.testcases.RegisterTest@2e222612</td></tr>
+<tr>
+<td title='automation.testcases.HomePageTest.clickSignup()'><b>clickSignup</b><br>Test class: automation.testcases.HomePageTest</td>
+<td></td>
+<td>2</td>
+<td>automation.testcases.HomePageTest@77eca502</td></tr>
+<tr>
+<td title='automation.testcases.AddressDetailsTest.insertCity()'><b>insertCity</b><br>Test class: automation.testcases.AddressDetailsTest<br>Parameters: Guy, garth.fay@gmail.com, ahhx9otk, Guy, Effertz, Cole, Dare and Kuvalis, Gilda, Apt. 723, The Valley, California, North Elyseberg, 92423, 1-847-891-5162</td>
+<td></td>
+<td>0</td>
+<td>automation.testcases.AddressDetailsTest@61386958</td></tr>
+<tr>
+<td title='automation.testcases.AddressDetailsTest.insertCompany()'><b>insertCompany</b><br>Test class: automation.testcases.AddressDetailsTest<br>Parameters: Guy, garth.fay@gmail.com, ahhx9otk, Guy, Effertz, Cole, Dare and Kuvalis, Gilda, Apt. 723, The Valley, California, North Elyseberg, 92423, 1-847-891-5162</td>
+<td></td>
+<td>0</td>
+<td>automation.testcases.AddressDetailsTest@61386958</td></tr>
+<tr>
+<td title='automation.testcases.AddressDetailsTest.insertCounrty()'><b>insertCounrty</b><br>Test class: automation.testcases.AddressDetailsTest<br>Parameters: Guy, garth.fay@gmail.com, ahhx9otk, Guy, Effertz, Cole, Dare and Kuvalis, Gilda, Apt. 723, The Valley, California, North Elyseberg, 92423, 1-847-891-5162</td>
+<td></td>
+<td>0</td>
+<td>automation.testcases.AddressDetailsTest@61386958</td></tr>
+<tr>
+<td title='automation.testcases.AddressDetailsTest.insertFirstname()'><b>insertFirstname</b><br>Test class: automation.testcases.AddressDetailsTest<br>Parameters: Guy, garth.fay@gmail.com, ahhx9otk, Guy, Effertz, Cole, Dare and Kuvalis, Gilda, Apt. 723, The Valley, California, North Elyseberg, 92423, 1-847-891-5162</td>
+<td></td>
+<td>0</td>
+<td>automation.testcases.AddressDetailsTest@61386958</td></tr>
+<tr>
+<td title='automation.testcases.AddressDetailsTest.insertLastname()'><b>insertLastname</b><br>Test class: automation.testcases.AddressDetailsTest<br>Parameters: Guy, garth.fay@gmail.com, ahhx9otk, Guy, Effertz, Cole, Dare and Kuvalis, Gilda, Apt. 723, The Valley, California, North Elyseberg, 92423, 1-847-891-5162</td>
+<td></td>
+<td>0</td>
+<td>automation.testcases.AddressDetailsTest@61386958</td></tr>
+<tr>
+<td title='automation.testcases.AddressDetailsTest.insertMobile_Number()'><b>insertMobile_Number</b><br>Test class: automation.testcases.AddressDetailsTest<br>Parameters: Guy, garth.fay@gmail.com, ahhx9otk, Guy, Effertz, Cole, Dare and Kuvalis, Gilda, Apt. 723, The Valley, California, North Elyseberg, 92423, 1-847-891-5162</td>
+<td></td>
+<td>0</td>
+<td>automation.testcases.AddressDetailsTest@61386958</td></tr>
+<tr>
+<td title='automation.testcases.AddressDetailsTest.insertSecondaryAddress()'><b>insertSecondaryAddress</b><br>Test class: automation.testcases.AddressDetailsTest<br>Parameters: Guy, garth.fay@gmail.com, ahhx9otk, Guy, Effertz, Cole, Dare and Kuvalis, Gilda, Apt. 723, The Valley, California, North Elyseberg, 92423, 1-847-891-5162</td>
+<td></td>
+<td>0</td>
+<td>automation.testcases.AddressDetailsTest@61386958</td></tr>
+<tr>
+<td title='automation.testcases.AddressDetailsTest.insertState()'><b>insertState</b><br>Test class: automation.testcases.AddressDetailsTest<br>Parameters: Guy, garth.fay@gmail.com, ahhx9otk, Guy, Effertz, Cole, Dare and Kuvalis, Gilda, Apt. 723, The Valley, California, North Elyseberg, 92423, 1-847-891-5162</td>
+<td></td>
+<td>0</td>
+<td>automation.testcases.AddressDetailsTest@61386958</td></tr>
+<tr>
+<td title='automation.testcases.AddressDetailsTest.insertZipcode()'><b>insertZipcode</b><br>Test class: automation.testcases.AddressDetailsTest<br>Parameters: Guy, garth.fay@gmail.com, ahhx9otk, Guy, Effertz, Cole, Dare and Kuvalis, Gilda, Apt. 723, The Valley, California, North Elyseberg, 92423, 1-847-891-5162</td>
+<td></td>
+<td>0</td>
+<td>automation.testcases.AddressDetailsTest@61386958</td></tr>
+<tr>
+<td title='automation.testcases.RegisterTest.insertpassword()'><b>insertpassword</b><br>Test class: automation.testcases.RegisterTest<br>Parameters: Guy, garth.fay@gmail.com, ahhx9otk, Guy, Effertz, Cole, Dare and Kuvalis, Gilda, Apt. 723, The Valley, California, North Elyseberg, 92423, 1-847-891-5162</td>
+<td></td>
+<td>0</td>
+<td>automation.testcases.RegisterTest@2e222612</td></tr>
+<tr>
+<td title='automation.testcases.AddressDetailsTest.insertprimaryAddress()'><b>insertprimaryAddress</b><br>Test class: automation.testcases.AddressDetailsTest<br>Parameters: Guy, garth.fay@gmail.com, ahhx9otk, Guy, Effertz, Cole, Dare and Kuvalis, Gilda, Apt. 723, The Valley, California, North Elyseberg, 92423, 1-847-891-5162</td>
+<td></td>
+<td>0</td>
+<td>automation.testcases.AddressDetailsTest@61386958</td></tr>
+<tr>
+<td title='automation.testcases.RegisterTest.scrollAction()'><b>scrollAction</b><br>Test class: automation.testcases.RegisterTest</td>
+<td></td>
+<td>0</td>
+<td>automation.testcases.RegisterTest@2e222612</td></tr>
+<tr>
+<td title='automation.testcases.RegisterTest.selectDay()'><b>selectDay</b><br>Test class: automation.testcases.RegisterTest</td>
+<td></td>
+<td>0</td>
+<td>automation.testcases.RegisterTest@2e222612</td></tr>
+<tr>
+<td title='automation.testcases.RegisterTest.selectMonth()'><b>selectMonth</b><br>Test class: automation.testcases.RegisterTest</td>
+<td></td>
+<td>0</td>
+<td>automation.testcases.RegisterTest@2e222612</td></tr>
+<tr>
+<td title='automation.testcases.RegisterTest.selectTitle()'><b>selectTitle</b><br>Test class: automation.testcases.RegisterTest</td>
+<td></td>
+<td>0</td>
+<td>automation.testcases.RegisterTest@2e222612</td></tr>
+<tr>
+<td title='automation.testcases.RegisterTest.selectYear()'><b>selectYear</b><br>Test class: automation.testcases.RegisterTest</td>
+<td></td>
+<td>0</td>
+<td>automation.testcases.RegisterTest@2e222612</td></tr>
+<tr>
+<td title='automation.testcases.HomePageTest.setup()'><b>setup</b><br>Test class: automation.testcases.HomePageTest<br>Parameters: chrome</td>
+<td></td>
+<td>10</td>
+<td>automation.testcases.HomePageTest@77eca502</td></tr>
+<tr>
+<td title='automation.testcases.RegisterTest.validateTextisDisplayed()'><b>validateTextisDisplayed</b><br>Test class: automation.testcases.RegisterTest</td>
+<td></td>
+<td>0</td>
+<td>automation.testcases.RegisterTest@2e222612</td></tr>
+</table><p>
+</body>
+</html>
