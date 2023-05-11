@@ -106,6 +106,7 @@ public class addressDetailsPage extends BaseClass {
 
 	public void clickCreateAccount() {
 		// TODO Auto-generated method stub
+		action.implicitWait(getDriver(), 1000);
 		action.click(getDriver(), submit);
 		
 	}
