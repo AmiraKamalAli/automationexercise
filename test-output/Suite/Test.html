@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>30/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>28/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu May 11 14:30:26 AST 2023</td>
+<td>Started on:</td><td>Thu May 11 20:10:10 AST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>35 seconds (35120 ms)</td>
+<tr><td>Total time:</td><td>87 seconds (87435 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,162 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='automation.testcases.HomePageTest.clickSignup()'><b>clickSignup</b><br>Test class: automation.testcases.HomePageTest</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 20.000
+  (Session info: chrome=112.0.5615.140)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;AS-40&apos;, ip: &apos;192.168.251.40&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\amira\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62113}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 07098a3138a0b4067132539d2f2aed88
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
+	at automation.actiondriver.Action.click(Action.java:49)
+	at automation.pageobjects.HomePage.signup(HomePage.java:29)
+	at automation.testcases.HomePageTest.clickSignup(HomePageTest.java:26)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1946636596", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1946636596'><pre>org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 20.000
+  (Session info: chrome=112.0.5615.140)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;AS-40&apos;, ip: &apos;192.168.251.40&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\amira\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62113}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 07098a3138a0b4067132539d2f2aed88
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
+	at automation.actiondriver.Action.click(Action.java:49)
+	at automation.pageobjects.HomePage.signup(HomePage.java:29)
+	at automation.testcases.HomePageTest.clickSignup(HomePageTest.java:26)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>20</td>
+<td>automation.testcases.HomePageTest@77eca502</td></tr>
+<tr>
+<td title='automation.testcases.HomePageTest.setup()'><b>setup</b><br>Test class: automation.testcases.HomePageTest<br>Parameters: chrome</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 6.693
+  (Session info: chrome=112.0.5615.140)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;AS-40&apos;, ip: &apos;192.168.251.40&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\amira\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62113}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 07098a3138a0b4067132539d2f2aed88
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at automation.base.BaseClass.launchApp(BaseClass.java:81)
+	at automation.testcases.HomePageTest.setup(HomePageTest.java:19)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1571278562", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1571278562'><pre>org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 6.693
+  (Session info: chrome=112.0.5615.140)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;AS-40&apos;, ip: &apos;192.168.251.40&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\amira\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62113}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 07098a3138a0b4067132539d2f2aed88
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at automation.base.BaseClass.launchApp(BaseClass.java:81)
+	at automation.testcases.HomePageTest.setup(HomePageTest.java:19)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>21</td>
+<td>automation.testcases.HomePageTest@77eca502</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -77,12 +233,12 @@ function toggleAllBoxes() {
 <tr>
 <td title='automation.testcases.SignupPageTest.Click_signup_Button()'><b>Click_signup_Button</b><br>Test class: automation.testcases.SignupPageTest</td>
 <td></td>
-<td>1</td>
+<td>9</td>
 <td>automation.testcases.SignupPageTest@3246fb96</td></tr>
 <tr>
 <td title='automation.testcases.ConfirmCreateadaccountTest.Contiune()'><b>Contiune</b><br>Test class: automation.testcases.ConfirmCreateadaccountTest</td>
 <td></td>
-<td>16</td>
+<td>15</td>
 <td>automation.testcases.ConfirmCreateadaccountTest@73ee04c8</td></tr>
 <tr>
 <td title='automation.testcases.ConfirmLoggedaccountTest.Contiune()'><b>Contiune</b><br>Test class: automation.testcases.ConfirmLoggedaccountTest</td>
@@ -92,7 +248,7 @@ function toggleAllBoxes() {
 <tr>
 <td title='automation.testcases.AddressDetailsTest.CreateAccount()'><b>CreateAccount</b><br>Test class: automation.testcases.AddressDetailsTest</td>
 <td></td>
-<td>1</td>
+<td>11</td>
 <td>automation.testcases.AddressDetailsTest@61386958</td></tr>
 <tr>
 <td title='automation.testcases.SignupPageTest.CreateRandomData()'><b>CreateRandomData</b><br>Test class: automation.testcases.SignupPageTest</td>
@@ -110,12 +266,12 @@ function toggleAllBoxes() {
 <td>0</td>
 <td>automation.testcases.ConfirmLoggedaccountTest@7671cb68</td></tr>
 <tr>
-<td title='automation.testcases.SignupPageTest.addEmail()'><b>addEmail</b><br>Test class: automation.testcases.SignupPageTest<br>Parameters: Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Thimphu, Nevada, East Francene, 35330, 1-963-671-4712</td>
+<td title='automation.testcases.SignupPageTest.addEmail()'><b>addEmail</b><br>Test class: automation.testcases.SignupPageTest<br>Parameters: Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, Oslo, Indiana, Murrayberg, 54714, (376) 333-5274</td>
 <td></td>
 <td>0</td>
 <td>automation.testcases.SignupPageTest@3246fb96</td></tr>
 <tr>
-<td title='automation.testcases.SignupPageTest.addname()'><b>addname</b><br>Test class: automation.testcases.SignupPageTest<br>Parameters: Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Thimphu, Nevada, East Francene, 35330, 1-963-671-4712</td>
+<td title='automation.testcases.SignupPageTest.addname()'><b>addname</b><br>Test class: automation.testcases.SignupPageTest<br>Parameters: Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, Oslo, Indiana, Murrayberg, 54714, (376) 333-5274</td>
 <td></td>
 <td>0</td>
 <td>automation.testcases.SignupPageTest@3246fb96</td></tr>
@@ -130,62 +286,57 @@ function toggleAllBoxes() {
 <td>0</td>
 <td>automation.testcases.RegisterTest@2e222612</td></tr>
 <tr>
-<td title='automation.testcases.HomePageTest.clickSignup()'><b>clickSignup</b><br>Test class: automation.testcases.HomePageTest</td>
-<td></td>
-<td>1</td>
-<td>automation.testcases.HomePageTest@77eca502</td></tr>
-<tr>
-<td title='automation.testcases.AddressDetailsTest.insertCity()'><b>insertCity</b><br>Test class: automation.testcases.AddressDetailsTest<br>Parameters: Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Thimphu, Nevada, East Francene, 35330, 1-963-671-4712</td>
+<td title='automation.testcases.AddressDetailsTest.insertCity()'><b>insertCity</b><br>Test class: automation.testcases.AddressDetailsTest<br>Parameters: Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, Oslo, Indiana, Murrayberg, 54714, (376) 333-5274</td>
 <td></td>
 <td>0</td>
 <td>automation.testcases.AddressDetailsTest@61386958</td></tr>
 <tr>
-<td title='automation.testcases.AddressDetailsTest.insertCompany()'><b>insertCompany</b><br>Test class: automation.testcases.AddressDetailsTest<br>Parameters: Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Thimphu, Nevada, East Francene, 35330, 1-963-671-4712</td>
+<td title='automation.testcases.AddressDetailsTest.insertCompany()'><b>insertCompany</b><br>Test class: automation.testcases.AddressDetailsTest<br>Parameters: Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, Oslo, Indiana, Murrayberg, 54714, (376) 333-5274</td>
 <td></td>
 <td>0</td>
 <td>automation.testcases.AddressDetailsTest@61386958</td></tr>
 <tr>
-<td title='automation.testcases.AddressDetailsTest.insertCounrty()'><b>insertCounrty</b><br>Test class: automation.testcases.AddressDetailsTest<br>Parameters: Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Thimphu, Nevada, East Francene, 35330, 1-963-671-4712</td>
+<td title='automation.testcases.AddressDetailsTest.insertCounrty()'><b>insertCounrty</b><br>Test class: automation.testcases.AddressDetailsTest<br>Parameters: Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, Oslo, Indiana, Murrayberg, 54714, (376) 333-5274</td>
 <td></td>
 <td>0</td>
 <td>automation.testcases.AddressDetailsTest@61386958</td></tr>
 <tr>
-<td title='automation.testcases.AddressDetailsTest.insertFirstname()'><b>insertFirstname</b><br>Test class: automation.testcases.AddressDetailsTest<br>Parameters: Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Thimphu, Nevada, East Francene, 35330, 1-963-671-4712</td>
+<td title='automation.testcases.AddressDetailsTest.insertFirstname()'><b>insertFirstname</b><br>Test class: automation.testcases.AddressDetailsTest<br>Parameters: Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, Oslo, Indiana, Murrayberg, 54714, (376) 333-5274</td>
 <td></td>
 <td>0</td>
 <td>automation.testcases.AddressDetailsTest@61386958</td></tr>
 <tr>
-<td title='automation.testcases.AddressDetailsTest.insertLastname()'><b>insertLastname</b><br>Test class: automation.testcases.AddressDetailsTest<br>Parameters: Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Thimphu, Nevada, East Francene, 35330, 1-963-671-4712</td>
+<td title='automation.testcases.AddressDetailsTest.insertLastname()'><b>insertLastname</b><br>Test class: automation.testcases.AddressDetailsTest<br>Parameters: Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, Oslo, Indiana, Murrayberg, 54714, (376) 333-5274</td>
 <td></td>
 <td>0</td>
 <td>automation.testcases.AddressDetailsTest@61386958</td></tr>
 <tr>
-<td title='automation.testcases.AddressDetailsTest.insertMobile_Number()'><b>insertMobile_Number</b><br>Test class: automation.testcases.AddressDetailsTest<br>Parameters: Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Thimphu, Nevada, East Francene, 35330, 1-963-671-4712</td>
+<td title='automation.testcases.AddressDetailsTest.insertMobile_Number()'><b>insertMobile_Number</b><br>Test class: automation.testcases.AddressDetailsTest<br>Parameters: Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, Oslo, Indiana, Murrayberg, 54714, (376) 333-5274</td>
 <td></td>
 <td>0</td>
 <td>automation.testcases.AddressDetailsTest@61386958</td></tr>
 <tr>
-<td title='automation.testcases.AddressDetailsTest.insertSecondaryAddress()'><b>insertSecondaryAddress</b><br>Test class: automation.testcases.AddressDetailsTest<br>Parameters: Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Thimphu, Nevada, East Francene, 35330, 1-963-671-4712</td>
+<td title='automation.testcases.AddressDetailsTest.insertSecondaryAddress()'><b>insertSecondaryAddress</b><br>Test class: automation.testcases.AddressDetailsTest<br>Parameters: Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, Oslo, Indiana, Murrayberg, 54714, (376) 333-5274</td>
 <td></td>
 <td>0</td>
 <td>automation.testcases.AddressDetailsTest@61386958</td></tr>
 <tr>
-<td title='automation.testcases.AddressDetailsTest.insertState()'><b>insertState</b><br>Test class: automation.testcases.AddressDetailsTest<br>Parameters: Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Thimphu, Nevada, East Francene, 35330, 1-963-671-4712</td>
+<td title='automation.testcases.AddressDetailsTest.insertState()'><b>insertState</b><br>Test class: automation.testcases.AddressDetailsTest<br>Parameters: Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, Oslo, Indiana, Murrayberg, 54714, (376) 333-5274</td>
 <td></td>
 <td>0</td>
 <td>automation.testcases.AddressDetailsTest@61386958</td></tr>
 <tr>
-<td title='automation.testcases.AddressDetailsTest.insertZipcode()'><b>insertZipcode</b><br>Test class: automation.testcases.AddressDetailsTest<br>Parameters: Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Thimphu, Nevada, East Francene, 35330, 1-963-671-4712</td>
+<td title='automation.testcases.AddressDetailsTest.insertZipcode()'><b>insertZipcode</b><br>Test class: automation.testcases.AddressDetailsTest<br>Parameters: Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, Oslo, Indiana, Murrayberg, 54714, (376) 333-5274</td>
 <td></td>
 <td>0</td>
 <td>automation.testcases.AddressDetailsTest@61386958</td></tr>
 <tr>
-<td title='automation.testcases.RegisterTest.insertpassword()'><b>insertpassword</b><br>Test class: automation.testcases.RegisterTest<br>Parameters: Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Thimphu, Nevada, East Francene, 35330, 1-963-671-4712</td>
+<td title='automation.testcases.RegisterTest.insertpassword()'><b>insertpassword</b><br>Test class: automation.testcases.RegisterTest<br>Parameters: Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, Oslo, Indiana, Murrayberg, 54714, (376) 333-5274</td>
 <td></td>
 <td>0</td>
 <td>automation.testcases.RegisterTest@2e222612</td></tr>
 <tr>
-<td title='automation.testcases.AddressDetailsTest.insertprimaryAddress()'><b>insertprimaryAddress</b><br>Test class: automation.testcases.AddressDetailsTest<br>Parameters: Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Thimphu, Nevada, East Francene, 35330, 1-963-671-4712</td>
+<td title='automation.testcases.AddressDetailsTest.insertprimaryAddress()'><b>insertprimaryAddress</b><br>Test class: automation.testcases.AddressDetailsTest<br>Parameters: Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, Oslo, Indiana, Murrayberg, 54714, (376) 333-5274</td>
 <td></td>
 <td>0</td>
 <td>automation.testcases.AddressDetailsTest@61386958</td></tr>
@@ -214,11 +365,6 @@ function toggleAllBoxes() {
 <td></td>
 <td>0</td>
 <td>automation.testcases.RegisterTest@2e222612</td></tr>
-<tr>
-<td title='automation.testcases.HomePageTest.setup()'><b>setup</b><br>Test class: automation.testcases.HomePageTest<br>Parameters: chrome</td>
-<td></td>
-<td>5</td>
-<td>automation.testcases.HomePageTest@77eca502</td></tr>
 <tr>
 <td title='automation.testcases.RegisterTest.validateTextisDisplayed()'><b>validateTextisDisplayed</b><br>Test class: automation.testcases.RegisterTest</td>
 <td></td>

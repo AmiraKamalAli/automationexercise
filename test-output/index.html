@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,7 +91,26 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">30 methods,   30 passed</span>
+                    <span class="method-stats">30 methods, 2 failed,   28 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="automation.testcases.HomePageTest" class="method navigator-link" hash-for-method="clickSignup">clickSignup</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="automation.testcases.HomePageTest" class="method navigator-link" hash-for-method="setup(chrome)">setup(chrome)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -127,22 +146,22 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="automation.testcases.ConfirmCreateadaccountTest" class="method navigator-link" hash-for-method="VerifyTextisvisable">VerifyTextisvisable</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="automation.testcases.ConfirmLoggedaccountTest" class="method navigator-link" hash-for-method="VerifyTextisvisable">VerifyTextisvisable</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="automation.testcases.SignupPageTest" class="method navigator-link" hash-for-method="addEmail(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Th...)">addEmail(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Th...)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="automation.testcases.ConfirmCreateadaccountTest" class="method navigator-link" hash-for-method="VerifyTextisvisable">VerifyTextisvisable</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="automation.testcases.SignupPageTest" class="method navigator-link" hash-for-method="addname(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Th...)">addname(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Th...)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="automation.testcases.SignupPageTest" class="method navigator-link" hash-for-method="addEmail(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, ...)">addEmail(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="automation.testcases.SignupPageTest" class="method navigator-link" hash-for-method="addname(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, ...)">addname(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, ...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -157,62 +176,57 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="automation.testcases.HomePageTest" class="method navigator-link" hash-for-method="clickSignup">clickSignup</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="automation.testcases.AddressDetailsTest" class="method navigator-link" hash-for-method="insertCity(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, ...)">insertCity(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, ...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="automation.testcases.AddressDetailsTest" class="method navigator-link" hash-for-method="insertCity(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Th...)">insertCity(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Th...)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="automation.testcases.AddressDetailsTest" class="method navigator-link" hash-for-method="insertCompany(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, ...)">insertCompany(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, ...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="automation.testcases.AddressDetailsTest" class="method navigator-link" hash-for-method="insertCompany(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Th...)">insertCompany(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Th...)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="automation.testcases.AddressDetailsTest" class="method navigator-link" hash-for-method="insertCounrty(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, ...)">insertCounrty(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, ...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="automation.testcases.AddressDetailsTest" class="method navigator-link" hash-for-method="insertCounrty(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Th...)">insertCounrty(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Th...)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="automation.testcases.AddressDetailsTest" class="method navigator-link" hash-for-method="insertFirstname(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, ...)">insertFirstname(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, ...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="automation.testcases.AddressDetailsTest" class="method navigator-link" hash-for-method="insertFirstname(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Th...)">insertFirstname(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Th...)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="automation.testcases.AddressDetailsTest" class="method navigator-link" hash-for-method="insertLastname(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, ...)">insertLastname(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, ...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="automation.testcases.AddressDetailsTest" class="method navigator-link" hash-for-method="insertLastname(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Th...)">insertLastname(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Th...)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="automation.testcases.AddressDetailsTest" class="method navigator-link" hash-for-method="insertMobile_Number(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, ...)">insertMobile_Number(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, ...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="automation.testcases.AddressDetailsTest" class="method navigator-link" hash-for-method="insertMobile_Number(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Th...)">insertMobile_Number(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Th...)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="automation.testcases.AddressDetailsTest" class="method navigator-link" hash-for-method="insertSecondaryAddress(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, ...)">insertSecondaryAddress(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, ...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="automation.testcases.AddressDetailsTest" class="method navigator-link" hash-for-method="insertSecondaryAddress(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Th...)">insertSecondaryAddress(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Th...)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="automation.testcases.AddressDetailsTest" class="method navigator-link" hash-for-method="insertState(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, ...)">insertState(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, ...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="automation.testcases.AddressDetailsTest" class="method navigator-link" hash-for-method="insertState(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Th...)">insertState(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Th...)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="automation.testcases.AddressDetailsTest" class="method navigator-link" hash-for-method="insertZipcode(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, ...)">insertZipcode(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, ...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="automation.testcases.AddressDetailsTest" class="method navigator-link" hash-for-method="insertZipcode(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Th...)">insertZipcode(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Th...)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="automation.testcases.RegisterTest" class="method navigator-link" hash-for-method="insertpassword(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, ...)">insertpassword(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, ...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="automation.testcases.RegisterTest" class="method navigator-link" hash-for-method="insertpassword(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Th...)">insertpassword(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Th...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="automation.testcases.AddressDetailsTest" class="method navigator-link" hash-for-method="insertprimaryAddress(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Th...)">insertprimaryAddress(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Th...)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="automation.testcases.AddressDetailsTest" class="method navigator-link" hash-for-method="insertprimaryAddress(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, ...)">insertprimaryAddress(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, ...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -242,11 +256,6 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="automation.testcases.HomePageTest" class="method navigator-link" hash-for-method="setup(chrome)">setup(chrome)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="automation.testcases.RegisterTest" class="method navigator-link" hash-for-method="validateTextisDisplayed">validateTextisDisplayed</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -262,6 +271,69 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">automation.testcases.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickSignup">
+                  </a> <!-- clickSignup -->
+                  <span class="method-name">clickSignup</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 20.000
+  (Session info: chrome=112.0.5615.140)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;AS-40&apos;, ip: &apos;192.168.251.40&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\amira\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62113}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 07098a3138a0b4067132539d2f2aed88
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
+	at automation.actiondriver.Action.click(Action.java:49)
+	at automation.pageobjects.HomePage.signup(HomePage.java:29)
+	at automation.testcases.HomePageTest.clickSignup(HomePageTest.java:26)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setup(chrome)">
+                  </a> <!-- setup(chrome) -->
+                  <span class="method-name">setup</span>
+                  <span class="parameters">(chrome)</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 6.693
+  (Session info: chrome=112.0.5615.140)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;AS-40&apos;, ip: &apos;192.168.251.40&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\amira\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62113}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 07098a3138a0b4067132539d2f2aed88
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at automation.base.BaseClass.launchApp(BaseClass.java:81)
+	at automation.testcases.HomePageTest.setup(HomePageTest.java:19)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -284,18 +356,18 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="addEmail(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Th...)">
-                  </a> <!-- addEmail(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Th...) -->
+                  <a name="addEmail(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, ...)">
+                  </a> <!-- addEmail(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, ...) -->
                   <span class="method-name">addEmail</span>
-                  <span class="parameters">(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Thimphu, Nevada, East Francene, 35330, 1-963-671-4712)</span>
+                  <span class="parameters">(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, Oslo, Indiana, Murrayberg, 54714, (376) 333-5274)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="addname(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Th...)">
-                  </a> <!-- addname(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Th...) -->
+                  <a name="addname(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, ...)">
+                  </a> <!-- addname(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, ...) -->
                   <span class="method-name">addname</span>
-                  <span class="parameters">(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Thimphu, Nevada, East Francene, 35330, 1-963-671-4712)</span>
+                  <span class="parameters">(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, Oslo, Indiana, Murrayberg, 54714, (376) 333-5274)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -303,7 +375,7 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">automation.testcases.ConfirmCreateadaccountTest</span>
+              <span class="class-name">automation.testcases.ConfirmLoggedaccountTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -325,7 +397,7 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">automation.testcases.ConfirmLoggedaccountTest</span>
+              <span class="class-name">automation.testcases.ConfirmCreateadaccountTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -366,10 +438,10 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="insertpassword(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Th...)">
-                  </a> <!-- insertpassword(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Th...) -->
+                  <a name="insertpassword(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, ...)">
+                  </a> <!-- insertpassword(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, ...) -->
                   <span class="method-name">insertpassword</span>
-                  <span class="parameters">(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Thimphu, Nevada, East Francene, 35330, 1-963-671-4712)</span>
+                  <span class="parameters">(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, Oslo, Indiana, Murrayberg, 54714, (376) 333-5274)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -419,29 +491,6 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">automation.testcases.HomePageTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="clickSignup">
-                  </a> <!-- clickSignup -->
-                  <span class="method-name">clickSignup</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="setup(chrome)">
-                  </a> <!-- setup(chrome) -->
-                  <span class="method-name">setup</span>
-                  <span class="parameters">(chrome)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
               <span class="class-name">automation.testcases.AddressDetailsTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -454,82 +503,82 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="insertCity(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Th...)">
-                  </a> <!-- insertCity(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Th...) -->
+                  <a name="insertCity(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, ...)">
+                  </a> <!-- insertCity(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, ...) -->
                   <span class="method-name">insertCity</span>
-                  <span class="parameters">(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Thimphu, Nevada, East Francene, 35330, 1-963-671-4712)</span>
+                  <span class="parameters">(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, Oslo, Indiana, Murrayberg, 54714, (376) 333-5274)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="insertCompany(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Th...)">
-                  </a> <!-- insertCompany(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Th...) -->
+                  <a name="insertCompany(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, ...)">
+                  </a> <!-- insertCompany(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, ...) -->
                   <span class="method-name">insertCompany</span>
-                  <span class="parameters">(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Thimphu, Nevada, East Francene, 35330, 1-963-671-4712)</span>
+                  <span class="parameters">(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, Oslo, Indiana, Murrayberg, 54714, (376) 333-5274)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="insertCounrty(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Th...)">
-                  </a> <!-- insertCounrty(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Th...) -->
+                  <a name="insertCounrty(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, ...)">
+                  </a> <!-- insertCounrty(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, ...) -->
                   <span class="method-name">insertCounrty</span>
-                  <span class="parameters">(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Thimphu, Nevada, East Francene, 35330, 1-963-671-4712)</span>
+                  <span class="parameters">(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, Oslo, Indiana, Murrayberg, 54714, (376) 333-5274)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="insertFirstname(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Th...)">
-                  </a> <!-- insertFirstname(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Th...) -->
+                  <a name="insertFirstname(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, ...)">
+                  </a> <!-- insertFirstname(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, ...) -->
                   <span class="method-name">insertFirstname</span>
-                  <span class="parameters">(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Thimphu, Nevada, East Francene, 35330, 1-963-671-4712)</span>
+                  <span class="parameters">(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, Oslo, Indiana, Murrayberg, 54714, (376) 333-5274)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="insertLastname(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Th...)">
-                  </a> <!-- insertLastname(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Th...) -->
+                  <a name="insertLastname(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, ...)">
+                  </a> <!-- insertLastname(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, ...) -->
                   <span class="method-name">insertLastname</span>
-                  <span class="parameters">(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Thimphu, Nevada, East Francene, 35330, 1-963-671-4712)</span>
+                  <span class="parameters">(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, Oslo, Indiana, Murrayberg, 54714, (376) 333-5274)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="insertMobile_Number(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Th...)">
-                  </a> <!-- insertMobile_Number(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Th...) -->
+                  <a name="insertMobile_Number(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, ...)">
+                  </a> <!-- insertMobile_Number(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, ...) -->
                   <span class="method-name">insertMobile_Number</span>
-                  <span class="parameters">(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Thimphu, Nevada, East Francene, 35330, 1-963-671-4712)</span>
+                  <span class="parameters">(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, Oslo, Indiana, Murrayberg, 54714, (376) 333-5274)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="insertSecondaryAddress(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Th...)">
-                  </a> <!-- insertSecondaryAddress(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Th...) -->
+                  <a name="insertSecondaryAddress(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, ...)">
+                  </a> <!-- insertSecondaryAddress(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, ...) -->
                   <span class="method-name">insertSecondaryAddress</span>
-                  <span class="parameters">(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Thimphu, Nevada, East Francene, 35330, 1-963-671-4712)</span>
+                  <span class="parameters">(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, Oslo, Indiana, Murrayberg, 54714, (376) 333-5274)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="insertState(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Th...)">
-                  </a> <!-- insertState(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Th...) -->
+                  <a name="insertState(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, ...)">
+                  </a> <!-- insertState(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, ...) -->
                   <span class="method-name">insertState</span>
-                  <span class="parameters">(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Thimphu, Nevada, East Francene, 35330, 1-963-671-4712)</span>
+                  <span class="parameters">(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, Oslo, Indiana, Murrayberg, 54714, (376) 333-5274)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="insertZipcode(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Th...)">
-                  </a> <!-- insertZipcode(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Th...) -->
+                  <a name="insertZipcode(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, ...)">
+                  </a> <!-- insertZipcode(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, ...) -->
                   <span class="method-name">insertZipcode</span>
-                  <span class="parameters">(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Thimphu, Nevada, East Francene, 35330, 1-963-671-4712)</span>
+                  <span class="parameters">(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, Oslo, Indiana, Murrayberg, 54714, (376) 333-5274)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="insertprimaryAddress(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Th...)">
-                  </a> <!-- insertprimaryAddress(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Th...) -->
+                  <a name="insertprimaryAddress(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, ...)">
+                  </a> <!-- insertprimaryAddress(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, ...) -->
                   <span class="method-name">insertprimaryAddress</span>
-                  <span class="parameters">(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Thimphu, Nevada, East Francene, 35330, 1-963-671-4712)</span>
+                  <span class="parameters">(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, Oslo, Indiana, Murrayberg, 54714, (376) 333-5274)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -598,130 +647,130 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(30);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'Contiune')
-data.setCell(0, 2, 'automation.testcases.ConfirmCreateadaccountTest')
-data.setCell(0, 3, 16149);
+data.setCell(0, 1, 'setup')
+data.setCell(0, 2, 'automation.testcases.HomePageTest')
+data.setCell(0, 3, 21782);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'setup')
+data.setCell(1, 1, 'clickSignup')
 data.setCell(1, 2, 'automation.testcases.HomePageTest')
-data.setCell(1, 3, 5136);
+data.setCell(1, 3, 20189);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'Click_signup_Button')
-data.setCell(2, 2, 'automation.testcases.SignupPageTest')
-data.setCell(2, 3, 1899);
+data.setCell(2, 1, 'Contiune')
+data.setCell(2, 2, 'automation.testcases.ConfirmCreateadaccountTest')
+data.setCell(2, 3, 15039);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'Contiune')
-data.setCell(3, 2, 'automation.testcases.ConfirmLoggedaccountTest')
-data.setCell(3, 3, 1658);
+data.setCell(3, 1, 'CreateAccount')
+data.setCell(3, 2, 'automation.testcases.AddressDetailsTest')
+data.setCell(3, 3, 11612);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'CreateAccount')
-data.setCell(4, 2, 'automation.testcases.AddressDetailsTest')
-data.setCell(4, 3, 1472);
+data.setCell(4, 1, 'Click_signup_Button')
+data.setCell(4, 2, 'automation.testcases.SignupPageTest')
+data.setCell(4, 3, 9786);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'clickSignup')
-data.setCell(5, 2, 'automation.testcases.HomePageTest')
-data.setCell(5, 3, 1121);
+data.setCell(5, 1, 'Contiune')
+data.setCell(5, 2, 'automation.testcases.ConfirmLoggedaccountTest')
+data.setCell(5, 3, 1094);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'CreateRandomData')
 data.setCell(6, 2, 'automation.testcases.SignupPageTest')
-data.setCell(6, 3, 501);
+data.setCell(6, 3, 588);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'checkNewsletter')
 data.setCell(7, 2, 'automation.testcases.RegisterTest')
-data.setCell(7, 3, 143);
+data.setCell(7, 3, 154);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'selectTitle')
+data.setCell(8, 1, 'checkOptin')
 data.setCell(8, 2, 'automation.testcases.RegisterTest')
-data.setCell(8, 3, 124);
+data.setCell(8, 3, 145);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'checkOptin')
+data.setCell(9, 1, 'selectTitle')
 data.setCell(9, 2, 'automation.testcases.RegisterTest')
-data.setCell(9, 3, 123);
+data.setCell(9, 3, 128);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'insertSecondaryAddress')
-data.setCell(10, 2, 'automation.testcases.AddressDetailsTest')
-data.setCell(10, 3, 113);
+data.setCell(10, 1, 'addname')
+data.setCell(10, 2, 'automation.testcases.SignupPageTest')
+data.setCell(10, 3, 111);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'addname')
-data.setCell(11, 2, 'automation.testcases.SignupPageTest')
-data.setCell(11, 3, 104);
+data.setCell(11, 1, 'selectYear')
+data.setCell(11, 2, 'automation.testcases.RegisterTest')
+data.setCell(11, 3, 103);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'selectYear')
-data.setCell(12, 2, 'automation.testcases.RegisterTest')
-data.setCell(12, 3, 100);
+data.setCell(12, 1, 'addEmail')
+data.setCell(12, 2, 'automation.testcases.SignupPageTest')
+data.setCell(12, 3, 101);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'addEmail')
-data.setCell(13, 2, 'automation.testcases.SignupPageTest')
+data.setCell(13, 1, 'insertpassword')
+data.setCell(13, 2, 'automation.testcases.RegisterTest')
 data.setCell(13, 3, 99);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'insertCompany')
-data.setCell(14, 2, 'automation.testcases.AddressDetailsTest')
-data.setCell(14, 3, 86);
+data.setCell(14, 1, 'VerifyTextisvisable')
+data.setCell(14, 2, 'automation.testcases.ConfirmCreateadaccountTest')
+data.setCell(14, 3, 99);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'insertpassword')
-data.setCell(15, 2, 'automation.testcases.RegisterTest')
-data.setCell(15, 3, 84);
+data.setCell(15, 1, 'insertCompany')
+data.setCell(15, 2, 'automation.testcases.AddressDetailsTest')
+data.setCell(15, 3, 93);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'insertMobile_Number')
+data.setCell(16, 1, 'insertSecondaryAddress')
 data.setCell(16, 2, 'automation.testcases.AddressDetailsTest')
-data.setCell(16, 3, 83);
+data.setCell(16, 3, 89);
 data.setCell(17, 0, 17)
-data.setCell(17, 1, 'insertLastname')
+data.setCell(17, 1, 'insertCity')
 data.setCell(17, 2, 'automation.testcases.AddressDetailsTest')
-data.setCell(17, 3, 79);
+data.setCell(17, 3, 89);
 data.setCell(18, 0, 18)
-data.setCell(18, 1, 'insertprimaryAddress')
+data.setCell(18, 1, 'insertState')
 data.setCell(18, 2, 'automation.testcases.AddressDetailsTest')
-data.setCell(18, 3, 79);
+data.setCell(18, 3, 85);
 data.setCell(19, 0, 19)
-data.setCell(19, 1, 'insertFirstname')
+data.setCell(19, 1, 'insertZipcode')
 data.setCell(19, 2, 'automation.testcases.AddressDetailsTest')
-data.setCell(19, 3, 79);
+data.setCell(19, 3, 85);
 data.setCell(20, 0, 20)
-data.setCell(20, 1, 'insertCity')
-data.setCell(20, 2, 'automation.testcases.AddressDetailsTest')
-data.setCell(20, 3, 79);
+data.setCell(20, 1, 'selectMonth')
+data.setCell(20, 2, 'automation.testcases.RegisterTest')
+data.setCell(20, 3, 83);
 data.setCell(21, 0, 21)
-data.setCell(21, 1, 'selectMonth')
-data.setCell(21, 2, 'automation.testcases.RegisterTest')
-data.setCell(21, 3, 78);
+data.setCell(21, 1, 'insertMobile_Number')
+data.setCell(21, 2, 'automation.testcases.AddressDetailsTest')
+data.setCell(21, 3, 83);
 data.setCell(22, 0, 22)
-data.setCell(22, 1, 'insertState')
+data.setCell(22, 1, 'insertFirstname')
 data.setCell(22, 2, 'automation.testcases.AddressDetailsTest')
-data.setCell(22, 3, 78);
+data.setCell(22, 3, 82);
 data.setCell(23, 0, 23)
-data.setCell(23, 1, 'validateTextisDisplayed')
-data.setCell(23, 2, 'automation.testcases.RegisterTest')
-data.setCell(23, 3, 77);
+data.setCell(23, 1, 'insertLastname')
+data.setCell(23, 2, 'automation.testcases.AddressDetailsTest')
+data.setCell(23, 3, 79);
 data.setCell(24, 0, 24)
-data.setCell(24, 1, 'insertZipcode')
+data.setCell(24, 1, 'insertprimaryAddress')
 data.setCell(24, 2, 'automation.testcases.AddressDetailsTest')
-data.setCell(24, 3, 76);
+data.setCell(24, 3, 77);
 data.setCell(25, 0, 25)
 data.setCell(25, 1, 'selectDay')
 data.setCell(25, 2, 'automation.testcases.RegisterTest')
-data.setCell(25, 3, 66);
+data.setCell(25, 3, 68);
 data.setCell(26, 0, 26)
-data.setCell(26, 1, 'VerifyTextisvisable')
-data.setCell(26, 2, 'automation.testcases.ConfirmCreateadaccountTest')
-data.setCell(26, 3, 60);
+data.setCell(26, 1, 'validateTextisDisplayed')
+data.setCell(26, 2, 'automation.testcases.RegisterTest')
+data.setCell(26, 3, 63);
 data.setCell(27, 0, 27)
 data.setCell(27, 1, 'VerifyTextisvisable')
 data.setCell(27, 2, 'automation.testcases.ConfirmLoggedaccountTest')
-data.setCell(27, 3, 53);
+data.setCell(27, 3, 59);
 data.setCell(28, 0, 28)
 data.setCell(28, 1, 'insertCounrty')
 data.setCell(28, 2, 'automation.testcases.AddressDetailsTest')
-data.setCell(28, 3, 35);
+data.setCell(28, 3, 39);
 data.setCell(29, 0, 29)
 data.setCell(29, 1, 'scrollAction')
 data.setCell(29, 2, 'automation.testcases.RegisterTest')
-data.setCell(29, 3, 11);
+data.setCell(29, 3, 12);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 29 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -798,146 +847,150 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">164 ms</span>
+                <span class="method-start">199 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">clickSignup</span>
-                <span class="method-start">5570 ms</span>
+                <span class="method-start">22549 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">automation.testcases.SignupPageTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">CreateRandomData</span>
-                <span class="method-start">6939 ms</span>
+                <span class="method-start">42886 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">addname(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Th...)</span>
-                <span class="method-start">7616 ms</span>
+                <span class="method-name">addname(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, ...)</span>
+                <span class="method-start">43682 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">addEmail(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Th...)</span>
-                <span class="method-start">7873 ms</span>
+                <span class="method-name">addEmail(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, ...)</span>
+                <span class="method-start">43953 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Click_signup_Button</span>
-                <span class="method-start">8126 ms</span>
+                <span class="method-start">44220 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">automation.testcases.RegisterTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">validateTextisDisplayed</span>
-                <span class="method-start">10241 ms</span>
+                <span class="method-start">54146 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">selectTitle</span>
-                <span class="method-start">10528 ms</span>
+                <span class="method-start">54364 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">insertpassword(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Th...)</span>
-                <span class="method-start">10823 ms</span>
+                <span class="method-name">insertpassword(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, ...)</span>
+                <span class="method-start">54663 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">selectDay</span>
-                <span class="method-start">11128 ms</span>
+                <span class="method-start">54993 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">selectMonth</span>
-                <span class="method-start">11443 ms</span>
+                <span class="method-start">55288 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">selectYear</span>
-                <span class="method-start">11661 ms</span>
+                <span class="method-start">55513 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">checkNewsletter</span>
-                <span class="method-start">11894 ms</span>
+                <span class="method-start">55756 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">checkOptin</span>
-                <span class="method-start">12195 ms</span>
+                <span class="method-start">56070 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">scrollAction</span>
-                <span class="method-start">12473 ms</span>
+                <span class="method-start">56356 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">automation.testcases.AddressDetailsTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">insertFirstname(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Th...)</span>
-                <span class="method-start">12652 ms</span>
+                <span class="method-name">insertFirstname(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, ...)</span>
+                <span class="method-start">56506 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">insertLastname(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Th...)</span>
-                <span class="method-start">12906 ms</span>
+                <span class="method-name">insertLastname(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, ...)</span>
+                <span class="method-start">56757 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">insertCompany(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Th...)</span>
-                <span class="method-start">13173 ms</span>
+                <span class="method-name">insertCompany(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, ...)</span>
+                <span class="method-start">56986 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">insertprimaryAddress(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Th...)</span>
-                <span class="method-start">13425 ms</span>
+                <span class="method-name">insertprimaryAddress(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, ...)</span>
+                <span class="method-start">57222 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">insertSecondaryAddress(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Th...)</span>
-                <span class="method-start">13678 ms</span>
+                <span class="method-name">insertSecondaryAddress(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, ...)</span>
+                <span class="method-start">57440 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">insertCounrty(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Th...)</span>
-                <span class="method-start">13928 ms</span>
+                <span class="method-name">insertCounrty(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, ...)</span>
+                <span class="method-start">57684 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">insertState(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Th...)</span>
-                <span class="method-start">14106 ms</span>
+                <span class="method-name">insertState(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, ...)</span>
+                <span class="method-start">57869 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">insertCity(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Th...)</span>
-                <span class="method-start">14328 ms</span>
+                <span class="method-name">insertCity(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, ...)</span>
+                <span class="method-start">58109 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">insertZipcode(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Th...)</span>
-                <span class="method-start">14544 ms</span>
+                <span class="method-name">insertZipcode(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, ...)</span>
+                <span class="method-start">58336 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">insertMobile_Number(Sanda, jed.bergnaum@yahoo.com, 52whr87s5tsc, Sanda, Rempel, Gusikowski and Sons, Dane, Suite 880, Th...)</span>
-                <span class="method-start">14762 ms</span>
+                <span class="method-name">insertMobile_Number(Zack, phyllis.moen@hotmail.com, mw234umm, Zack, Terry, Davis, Ratke and Hirthe, Hershel, Suite 065, ...)</span>
+                <span class="method-start">58570 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">CreateAccount</span>
-                <span class="method-start">14971 ms</span>
+                <span class="method-start">58804 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">automation.testcases.ConfirmCreateadaccountTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">VerifyTextisvisable</span>
-                <span class="method-start">16598 ms</span>
+                <span class="method-start">70555 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Contiune</span>
-                <span class="method-start">16771 ms</span>
+                <span class="method-start">70791 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">automation.testcases.ConfirmLoggedaccountTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">VerifyTextisvisable</span>
-                <span class="method-start">33196 ms</span>
+                <span class="method-start">86087 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Contiune</span>
-                <span class="method-start">33483 ms</span>
+                <span class="method-start">86391 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">automation.testcases.HomePageTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">afterSuite</span>
-                <span class="method-start">35279 ms</span>
+                <span class="method-start">87631 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
