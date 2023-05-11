@@ -51,7 +51,7 @@ public class AddressDetailsTest extends BaseClass {
 
 		addressDetailsPage reg = new addressDetailsPage();
 		reg.addSecondaryAddress(Address2);
-		reg.scrolltoActionstate();
+		//reg.scrolltoActionstate();
 	}
 
 	@Test(priority = 6, dataProvider = "Account", dataProviderClass = DataProviders.class)

@@ -2,16 +2,16 @@
 <testng-results ignored="10" total="40" passed="30" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-10T22:03:00 AST" name="Suite" finished-at="2023-05-10T22:03:44 AST" duration-ms="44141">
+  <suite started-at="2023-05-11T14:30:26 AST" name="Suite" finished-at="2023-05-11T14:31:01 AST" duration-ms="35120">
     <groups>
     </groups>
-    <test started-at="2023-05-10T22:03:00 AST" name="Test" finished-at="2023-05-10T22:03:44 AST" duration-ms="44141">
+    <test started-at="2023-05-11T14:30:26 AST" name="Test" finished-at="2023-05-11T14:31:01 AST" duration-ms="35120">
       <class name="automation.testcases.HomePageTest">
-        <test-method is-config="true" signature="loadConfig()[pri:0, instance:automation.testcases.HomePageTest@77eca502]" started-at="2023-05-10T22:03:00 AST" name="loadConfig" finished-at="2023-05-10T22:03:00 AST" duration-ms="219" status="PASS">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:automation.testcases.HomePageTest@77eca502]" started-at="2023-05-11T14:30:25 AST" name="loadConfig" finished-at="2023-05-11T14:30:26 AST" duration-ms="147" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadConfig -->
-        <test-method signature="setup(java.lang.String)[pri:1, instance:automation.testcases.HomePageTest@77eca502]" started-at="2023-05-10T22:03:00 AST" name="setup" finished-at="2023-05-10T22:03:10 AST" duration-ms="10238" status="PASS">
+        <test-method signature="setup(java.lang.String)[pri:1, instance:automation.testcases.HomePageTest@77eca502]" started-at="2023-05-11T14:30:26 AST" name="setup" finished-at="2023-05-11T14:30:31 AST" duration-ms="5136" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,1004 +22,1004 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="clickSignup()[pri:2, instance:automation.testcases.HomePageTest@77eca502]" started-at="2023-05-10T22:03:11 AST" name="clickSignup" finished-at="2023-05-10T22:03:13 AST" duration-ms="2442" status="PASS">
+        <test-method signature="clickSignup()[pri:2, instance:automation.testcases.HomePageTest@77eca502]" started-at="2023-05-11T14:30:31 AST" name="clickSignup" finished-at="2023-05-11T14:30:32 AST" duration-ms="1121" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickSignup -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:automation.testcases.HomePageTest@77eca502]" started-at="2023-05-10T22:03:44 AST" name="afterSuite" finished-at="2023-05-10T22:03:45 AST" duration-ms="934" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:automation.testcases.HomePageTest@77eca502]" started-at="2023-05-11T14:31:01 AST" name="afterSuite" finished-at="2023-05-11T14:31:02 AST" duration-ms="844" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
       </class> <!-- automation.testcases.HomePageTest -->
       <class name="automation.testcases.ConfirmCreateadaccountTest">
-        <test-method signature="VerifyTextisvisable()[pri:1, instance:automation.testcases.ConfirmCreateadaccountTest@73ee04c8]" started-at="2023-05-10T22:03:29 AST" name="VerifyTextisvisable" finished-at="2023-05-10T22:03:29 AST" duration-ms="64" status="PASS">
+        <test-method signature="VerifyTextisvisable()[pri:1, instance:automation.testcases.ConfirmCreateadaccountTest@73ee04c8]" started-at="2023-05-11T14:30:42 AST" name="VerifyTextisvisable" finished-at="2023-05-11T14:30:42 AST" duration-ms="60" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyTextisvisable -->
-        <test-method signature="Contiune()[pri:2, instance:automation.testcases.ConfirmCreateadaccountTest@73ee04c8]" started-at="2023-05-10T22:03:30 AST" name="Contiune" finished-at="2023-05-10T22:03:30 AST" duration-ms="134" status="PASS">
+        <test-method signature="Contiune()[pri:2, instance:automation.testcases.ConfirmCreateadaccountTest@73ee04c8]" started-at="2023-05-11T14:30:42 AST" name="Contiune" finished-at="2023-05-11T14:30:58 AST" duration-ms="16149" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Contiune -->
       </class> <!-- automation.testcases.ConfirmCreateadaccountTest -->
       <class name="automation.testcases.SignupPageTest">
-        <test-method signature="CreateRandomData()[pri:1, instance:automation.testcases.SignupPageTest@3246fb96]" started-at="2023-05-10T22:03:13 AST" name="CreateRandomData" finished-at="2023-05-10T22:03:14 AST" duration-ms="621" status="PASS">
+        <test-method signature="CreateRandomData()[pri:1, instance:automation.testcases.SignupPageTest@3246fb96]" started-at="2023-05-11T14:30:32 AST" name="CreateRandomData" finished-at="2023-05-11T14:30:33 AST" duration-ms="501" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateRandomData -->
-        <test-method signature="addname(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:automation.testcases.SignupPageTest@3246fb96]" started-at="2023-05-10T22:03:14 AST" name="addname" data-provider="Account" finished-at="2023-05-10T22:03:14 AST" duration-ms="160" status="PASS">
+        <test-method signature="addname(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:automation.testcases.SignupPageTest@3246fb96]" started-at="2023-05-11T14:30:33 AST" name="addname" data-provider="Account" finished-at="2023-05-11T14:30:33 AST" duration-ms="104" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Guy]]>
+                <![CDATA[Sanda]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[garth.fay@gmail.com]]>
+                <![CDATA[jed.bergnaum@yahoo.com]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[ahhx9otk]]>
+                <![CDATA[52whr87s5tsc]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[Guy]]>
+                <![CDATA[Sanda]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[Effertz]]>
+                <![CDATA[Rempel]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[Cole, Dare and Kuvalis]]>
+                <![CDATA[Gusikowski and Sons]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[Gilda]]>
+                <![CDATA[Dane]]>
               </value>
             </param>
             <param index="7">
               <value>
-                <![CDATA[Apt. 723]]>
+                <![CDATA[Suite 880]]>
               </value>
             </param>
             <param index="8">
               <value>
-                <![CDATA[The Valley]]>
+                <![CDATA[Thimphu]]>
               </value>
             </param>
             <param index="9">
               <value>
-                <![CDATA[California]]>
+                <![CDATA[Nevada]]>
               </value>
             </param>
             <param index="10">
               <value>
-                <![CDATA[North Elyseberg]]>
+                <![CDATA[East Francene]]>
               </value>
             </param>
             <param index="11">
               <value>
-                <![CDATA[92423]]>
+                <![CDATA[35330]]>
               </value>
             </param>
             <param index="12">
               <value>
-                <![CDATA[1-847-891-5162]]>
+                <![CDATA[1-963-671-4712]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addname -->
-        <test-method signature="addEmail(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:automation.testcases.SignupPageTest@3246fb96]" started-at="2023-05-10T22:03:14 AST" name="addEmail" data-provider="Account" finished-at="2023-05-10T22:03:15 AST" duration-ms="113" status="PASS">
+        <test-method signature="addEmail(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:automation.testcases.SignupPageTest@3246fb96]" started-at="2023-05-11T14:30:33 AST" name="addEmail" data-provider="Account" finished-at="2023-05-11T14:30:33 AST" duration-ms="99" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Guy]]>
+                <![CDATA[Sanda]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[garth.fay@gmail.com]]>
+                <![CDATA[jed.bergnaum@yahoo.com]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[ahhx9otk]]>
+                <![CDATA[52whr87s5tsc]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[Guy]]>
+                <![CDATA[Sanda]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[Effertz]]>
+                <![CDATA[Rempel]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[Cole, Dare and Kuvalis]]>
+                <![CDATA[Gusikowski and Sons]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[Gilda]]>
+                <![CDATA[Dane]]>
               </value>
             </param>
             <param index="7">
               <value>
-                <![CDATA[Apt. 723]]>
+                <![CDATA[Suite 880]]>
               </value>
             </param>
             <param index="8">
               <value>
-                <![CDATA[The Valley]]>
+                <![CDATA[Thimphu]]>
               </value>
             </param>
             <param index="9">
               <value>
-                <![CDATA[California]]>
+                <![CDATA[Nevada]]>
               </value>
             </param>
             <param index="10">
               <value>
-                <![CDATA[North Elyseberg]]>
+                <![CDATA[East Francene]]>
               </value>
             </param>
             <param index="11">
               <value>
-                <![CDATA[92423]]>
+                <![CDATA[35330]]>
               </value>
             </param>
             <param index="12">
               <value>
-                <![CDATA[1-847-891-5162]]>
+                <![CDATA[1-963-671-4712]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addEmail -->
-        <test-method signature="Click_signup_Button()[pri:4, instance:automation.testcases.SignupPageTest@3246fb96]" started-at="2023-05-10T22:03:15 AST" name="Click_signup_Button" finished-at="2023-05-10T22:03:17 AST" duration-ms="2686" status="PASS">
+        <test-method signature="Click_signup_Button()[pri:4, instance:automation.testcases.SignupPageTest@3246fb96]" started-at="2023-05-11T14:30:34 AST" name="Click_signup_Button" finished-at="2023-05-11T14:30:35 AST" duration-ms="1899" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Click_signup_Button -->
       </class> <!-- automation.testcases.SignupPageTest -->
       <class name="automation.testcases.ConfirmLoggedaccountTest">
-        <test-method signature="VerifyTextisvisable()[pri:1, instance:automation.testcases.ConfirmLoggedaccountTest@7671cb68]" started-at="2023-05-10T22:03:30 AST" name="VerifyTextisvisable" finished-at="2023-05-10T22:03:42 AST" duration-ms="11719" status="PASS">
+        <test-method signature="VerifyTextisvisable()[pri:1, instance:automation.testcases.ConfirmLoggedaccountTest@7671cb68]" started-at="2023-05-11T14:30:59 AST" name="VerifyTextisvisable" finished-at="2023-05-11T14:30:59 AST" duration-ms="53" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyTextisvisable -->
-        <test-method signature="Contiune()[pri:2, instance:automation.testcases.ConfirmLoggedaccountTest@7671cb68]" started-at="2023-05-10T22:03:42 AST" name="Contiune" finished-at="2023-05-10T22:03:44 AST" duration-ms="1590" status="PASS">
+        <test-method signature="Contiune()[pri:2, instance:automation.testcases.ConfirmLoggedaccountTest@7671cb68]" started-at="2023-05-11T14:30:59 AST" name="Contiune" finished-at="2023-05-11T14:31:01 AST" duration-ms="1658" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Contiune -->
       </class> <!-- automation.testcases.ConfirmLoggedaccountTest -->
       <class name="automation.testcases.AddressDetailsTest">
-        <test-method signature="insertFirstname(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:automation.testcases.AddressDetailsTest@61386958]" started-at="2023-05-10T22:03:22 AST" name="insertFirstname" data-provider="Account" finished-at="2023-05-10T22:03:22 AST" duration-ms="99" status="PASS">
+        <test-method signature="insertFirstname(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:automation.testcases.AddressDetailsTest@61386958]" started-at="2023-05-11T14:30:38 AST" name="insertFirstname" data-provider="Account" finished-at="2023-05-11T14:30:38 AST" duration-ms="79" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Guy]]>
+                <![CDATA[Sanda]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[garth.fay@gmail.com]]>
+                <![CDATA[jed.bergnaum@yahoo.com]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[ahhx9otk]]>
+                <![CDATA[52whr87s5tsc]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[Guy]]>
+                <![CDATA[Sanda]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[Effertz]]>
+                <![CDATA[Rempel]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[Cole, Dare and Kuvalis]]>
+                <![CDATA[Gusikowski and Sons]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[Gilda]]>
+                <![CDATA[Dane]]>
               </value>
             </param>
             <param index="7">
               <value>
-                <![CDATA[Apt. 723]]>
+                <![CDATA[Suite 880]]>
               </value>
             </param>
             <param index="8">
               <value>
-                <![CDATA[The Valley]]>
+                <![CDATA[Thimphu]]>
               </value>
             </param>
             <param index="9">
               <value>
-                <![CDATA[California]]>
+                <![CDATA[Nevada]]>
               </value>
             </param>
             <param index="10">
               <value>
-                <![CDATA[North Elyseberg]]>
+                <![CDATA[East Francene]]>
               </value>
             </param>
             <param index="11">
               <value>
-                <![CDATA[92423]]>
+                <![CDATA[35330]]>
               </value>
             </param>
             <param index="12">
               <value>
-                <![CDATA[1-847-891-5162]]>
+                <![CDATA[1-963-671-4712]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- insertFirstname -->
-        <test-method signature="insertLastname(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:automation.testcases.AddressDetailsTest@61386958]" started-at="2023-05-10T22:03:22 AST" name="insertLastname" data-provider="Account" finished-at="2023-05-10T22:03:22 AST" duration-ms="94" status="PASS">
+        <test-method signature="insertLastname(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:automation.testcases.AddressDetailsTest@61386958]" started-at="2023-05-11T14:30:38 AST" name="insertLastname" data-provider="Account" finished-at="2023-05-11T14:30:38 AST" duration-ms="79" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Guy]]>
+                <![CDATA[Sanda]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[garth.fay@gmail.com]]>
+                <![CDATA[jed.bergnaum@yahoo.com]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[ahhx9otk]]>
+                <![CDATA[52whr87s5tsc]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[Guy]]>
+                <![CDATA[Sanda]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[Effertz]]>
+                <![CDATA[Rempel]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[Cole, Dare and Kuvalis]]>
+                <![CDATA[Gusikowski and Sons]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[Gilda]]>
+                <![CDATA[Dane]]>
               </value>
             </param>
             <param index="7">
               <value>
-                <![CDATA[Apt. 723]]>
+                <![CDATA[Suite 880]]>
               </value>
             </param>
             <param index="8">
               <value>
-                <![CDATA[The Valley]]>
+                <![CDATA[Thimphu]]>
               </value>
             </param>
             <param index="9">
               <value>
-                <![CDATA[California]]>
+                <![CDATA[Nevada]]>
               </value>
             </param>
             <param index="10">
               <value>
-                <![CDATA[North Elyseberg]]>
+                <![CDATA[East Francene]]>
               </value>
             </param>
             <param index="11">
               <value>
-                <![CDATA[92423]]>
+                <![CDATA[35330]]>
               </value>
             </param>
             <param index="12">
               <value>
-                <![CDATA[1-847-891-5162]]>
+                <![CDATA[1-963-671-4712]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- insertLastname -->
-        <test-method signature="insertCompany(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:automation.testcases.AddressDetailsTest@61386958]" started-at="2023-05-10T22:03:23 AST" name="insertCompany" data-provider="Account" finished-at="2023-05-10T22:03:23 AST" duration-ms="114" status="PASS">
+        <test-method signature="insertCompany(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:automation.testcases.AddressDetailsTest@61386958]" started-at="2023-05-11T14:30:39 AST" name="insertCompany" data-provider="Account" finished-at="2023-05-11T14:30:39 AST" duration-ms="86" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Guy]]>
+                <![CDATA[Sanda]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[garth.fay@gmail.com]]>
+                <![CDATA[jed.bergnaum@yahoo.com]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[ahhx9otk]]>
+                <![CDATA[52whr87s5tsc]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[Guy]]>
+                <![CDATA[Sanda]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[Effertz]]>
+                <![CDATA[Rempel]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[Cole, Dare and Kuvalis]]>
+                <![CDATA[Gusikowski and Sons]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[Gilda]]>
+                <![CDATA[Dane]]>
               </value>
             </param>
             <param index="7">
               <value>
-                <![CDATA[Apt. 723]]>
+                <![CDATA[Suite 880]]>
               </value>
             </param>
             <param index="8">
               <value>
-                <![CDATA[The Valley]]>
+                <![CDATA[Thimphu]]>
               </value>
             </param>
             <param index="9">
               <value>
-                <![CDATA[California]]>
+                <![CDATA[Nevada]]>
               </value>
             </param>
             <param index="10">
               <value>
-                <![CDATA[North Elyseberg]]>
+                <![CDATA[East Francene]]>
               </value>
             </param>
             <param index="11">
               <value>
-                <![CDATA[92423]]>
+                <![CDATA[35330]]>
               </value>
             </param>
             <param index="12">
               <value>
-                <![CDATA[1-847-891-5162]]>
+                <![CDATA[1-963-671-4712]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- insertCompany -->
-        <test-method signature="insertprimaryAddress(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:automation.testcases.AddressDetailsTest@61386958]" started-at="2023-05-10T22:03:23 AST" name="insertprimaryAddress" data-provider="Account" finished-at="2023-05-10T22:03:23 AST" duration-ms="103" status="PASS">
+        <test-method signature="insertprimaryAddress(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:automation.testcases.AddressDetailsTest@61386958]" started-at="2023-05-11T14:30:39 AST" name="insertprimaryAddress" data-provider="Account" finished-at="2023-05-11T14:30:39 AST" duration-ms="79" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Guy]]>
+                <![CDATA[Sanda]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[garth.fay@gmail.com]]>
+                <![CDATA[jed.bergnaum@yahoo.com]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[ahhx9otk]]>
+                <![CDATA[52whr87s5tsc]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[Guy]]>
+                <![CDATA[Sanda]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[Effertz]]>
+                <![CDATA[Rempel]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[Cole, Dare and Kuvalis]]>
+                <![CDATA[Gusikowski and Sons]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[Gilda]]>
+                <![CDATA[Dane]]>
               </value>
             </param>
             <param index="7">
               <value>
-                <![CDATA[Apt. 723]]>
+                <![CDATA[Suite 880]]>
               </value>
             </param>
             <param index="8">
               <value>
-                <![CDATA[The Valley]]>
+                <![CDATA[Thimphu]]>
               </value>
             </param>
             <param index="9">
               <value>
-                <![CDATA[California]]>
+                <![CDATA[Nevada]]>
               </value>
             </param>
             <param index="10">
               <value>
-                <![CDATA[North Elyseberg]]>
+                <![CDATA[East Francene]]>
               </value>
             </param>
             <param index="11">
               <value>
-                <![CDATA[92423]]>
+                <![CDATA[35330]]>
               </value>
             </param>
             <param index="12">
               <value>
-                <![CDATA[1-847-891-5162]]>
+                <![CDATA[1-963-671-4712]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- insertprimaryAddress -->
-        <test-method signature="insertSecondaryAddress(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:automation.testcases.AddressDetailsTest@61386958]" started-at="2023-05-10T22:03:23 AST" name="insertSecondaryAddress" data-provider="Account" finished-at="2023-05-10T22:03:24 AST" duration-ms="124" status="PASS">
+        <test-method signature="insertSecondaryAddress(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:automation.testcases.AddressDetailsTest@61386958]" started-at="2023-05-11T14:30:39 AST" name="insertSecondaryAddress" data-provider="Account" finished-at="2023-05-11T14:30:39 AST" duration-ms="113" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Guy]]>
+                <![CDATA[Sanda]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[garth.fay@gmail.com]]>
+                <![CDATA[jed.bergnaum@yahoo.com]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[ahhx9otk]]>
+                <![CDATA[52whr87s5tsc]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[Guy]]>
+                <![CDATA[Sanda]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[Effertz]]>
+                <![CDATA[Rempel]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[Cole, Dare and Kuvalis]]>
+                <![CDATA[Gusikowski and Sons]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[Gilda]]>
+                <![CDATA[Dane]]>
               </value>
             </param>
             <param index="7">
               <value>
-                <![CDATA[Apt. 723]]>
+                <![CDATA[Suite 880]]>
               </value>
             </param>
             <param index="8">
               <value>
-                <![CDATA[The Valley]]>
+                <![CDATA[Thimphu]]>
               </value>
             </param>
             <param index="9">
               <value>
-                <![CDATA[California]]>
+                <![CDATA[Nevada]]>
               </value>
             </param>
             <param index="10">
               <value>
-                <![CDATA[North Elyseberg]]>
+                <![CDATA[East Francene]]>
               </value>
             </param>
             <param index="11">
               <value>
-                <![CDATA[92423]]>
+                <![CDATA[35330]]>
               </value>
             </param>
             <param index="12">
               <value>
-                <![CDATA[1-847-891-5162]]>
+                <![CDATA[1-963-671-4712]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- insertSecondaryAddress -->
-        <test-method signature="insertCounrty(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:6, instance:automation.testcases.AddressDetailsTest@61386958]" started-at="2023-05-10T22:03:24 AST" name="insertCounrty" data-provider="Account" finished-at="2023-05-10T22:03:24 AST" duration-ms="51" status="PASS">
+        <test-method signature="insertCounrty(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:6, instance:automation.testcases.AddressDetailsTest@61386958]" started-at="2023-05-11T14:30:39 AST" name="insertCounrty" data-provider="Account" finished-at="2023-05-11T14:30:39 AST" duration-ms="35" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Guy]]>
+                <![CDATA[Sanda]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[garth.fay@gmail.com]]>
+                <![CDATA[jed.bergnaum@yahoo.com]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[ahhx9otk]]>
+                <![CDATA[52whr87s5tsc]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[Guy]]>
+                <![CDATA[Sanda]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[Effertz]]>
+                <![CDATA[Rempel]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[Cole, Dare and Kuvalis]]>
+                <![CDATA[Gusikowski and Sons]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[Gilda]]>
+                <![CDATA[Dane]]>
               </value>
             </param>
             <param index="7">
               <value>
-                <![CDATA[Apt. 723]]>
+                <![CDATA[Suite 880]]>
               </value>
             </param>
             <param index="8">
               <value>
-                <![CDATA[The Valley]]>
+                <![CDATA[Thimphu]]>
               </value>
             </param>
             <param index="9">
               <value>
-                <![CDATA[California]]>
+                <![CDATA[Nevada]]>
               </value>
             </param>
             <param index="10">
               <value>
-                <![CDATA[North Elyseberg]]>
+                <![CDATA[East Francene]]>
               </value>
             </param>
             <param index="11">
               <value>
-                <![CDATA[92423]]>
+                <![CDATA[35330]]>
               </value>
             </param>
             <param index="12">
               <value>
-                <![CDATA[1-847-891-5162]]>
+                <![CDATA[1-963-671-4712]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- insertCounrty -->
-        <test-method signature="insertState(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:7, instance:automation.testcases.AddressDetailsTest@61386958]" started-at="2023-05-10T22:03:24 AST" name="insertState" data-provider="Account" finished-at="2023-05-10T22:03:24 AST" duration-ms="107" status="PASS">
+        <test-method signature="insertState(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:7, instance:automation.testcases.AddressDetailsTest@61386958]" started-at="2023-05-11T14:30:40 AST" name="insertState" data-provider="Account" finished-at="2023-05-11T14:30:40 AST" duration-ms="78" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Guy]]>
+                <![CDATA[Sanda]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[garth.fay@gmail.com]]>
+                <![CDATA[jed.bergnaum@yahoo.com]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[ahhx9otk]]>
+                <![CDATA[52whr87s5tsc]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[Guy]]>
+                <![CDATA[Sanda]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[Effertz]]>
+                <![CDATA[Rempel]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[Cole, Dare and Kuvalis]]>
+                <![CDATA[Gusikowski and Sons]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[Gilda]]>
+                <![CDATA[Dane]]>
               </value>
             </param>
             <param index="7">
               <value>
-                <![CDATA[Apt. 723]]>
+                <![CDATA[Suite 880]]>
               </value>
             </param>
             <param index="8">
               <value>
-                <![CDATA[The Valley]]>
+                <![CDATA[Thimphu]]>
               </value>
             </param>
             <param index="9">
               <value>
-                <![CDATA[California]]>
+                <![CDATA[Nevada]]>
               </value>
             </param>
             <param index="10">
               <value>
-                <![CDATA[North Elyseberg]]>
+                <![CDATA[East Francene]]>
               </value>
             </param>
             <param index="11">
               <value>
-                <![CDATA[92423]]>
+                <![CDATA[35330]]>
               </value>
             </param>
             <param index="12">
               <value>
-                <![CDATA[1-847-891-5162]]>
+                <![CDATA[1-963-671-4712]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- insertState -->
-        <test-method signature="insertCity(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:8, instance:automation.testcases.AddressDetailsTest@61386958]" started-at="2023-05-10T22:03:25 AST" name="insertCity" data-provider="Account" finished-at="2023-05-10T22:03:25 AST" duration-ms="114" status="PASS">
+        <test-method signature="insertCity(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:8, instance:automation.testcases.AddressDetailsTest@61386958]" started-at="2023-05-11T14:30:40 AST" name="insertCity" data-provider="Account" finished-at="2023-05-11T14:30:40 AST" duration-ms="79" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Guy]]>
+                <![CDATA[Sanda]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[garth.fay@gmail.com]]>
+                <![CDATA[jed.bergnaum@yahoo.com]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[ahhx9otk]]>
+                <![CDATA[52whr87s5tsc]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[Guy]]>
+                <![CDATA[Sanda]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[Effertz]]>
+                <![CDATA[Rempel]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[Cole, Dare and Kuvalis]]>
+                <![CDATA[Gusikowski and Sons]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[Gilda]]>
+                <![CDATA[Dane]]>
               </value>
             </param>
             <param index="7">
               <value>
-                <![CDATA[Apt. 723]]>
+                <![CDATA[Suite 880]]>
               </value>
             </param>
             <param index="8">
               <value>
-                <![CDATA[The Valley]]>
+                <![CDATA[Thimphu]]>
               </value>
             </param>
             <param index="9">
               <value>
-                <![CDATA[California]]>
+                <![CDATA[Nevada]]>
               </value>
             </param>
             <param index="10">
               <value>
-                <![CDATA[North Elyseberg]]>
+                <![CDATA[East Francene]]>
               </value>
             </param>
             <param index="11">
               <value>
-                <![CDATA[92423]]>
+                <![CDATA[35330]]>
               </value>
             </param>
             <param index="12">
               <value>
-                <![CDATA[1-847-891-5162]]>
+                <![CDATA[1-963-671-4712]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- insertCity -->
-        <test-method signature="insertZipcode(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:9, instance:automation.testcases.AddressDetailsTest@61386958]" started-at="2023-05-10T22:03:25 AST" name="insertZipcode" data-provider="Account" finished-at="2023-05-10T22:03:25 AST" duration-ms="115" status="PASS">
+        <test-method signature="insertZipcode(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:9, instance:automation.testcases.AddressDetailsTest@61386958]" started-at="2023-05-11T14:30:40 AST" name="insertZipcode" data-provider="Account" finished-at="2023-05-11T14:30:40 AST" duration-ms="76" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Guy]]>
+                <![CDATA[Sanda]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[garth.fay@gmail.com]]>
+                <![CDATA[jed.bergnaum@yahoo.com]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[ahhx9otk]]>
+                <![CDATA[52whr87s5tsc]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[Guy]]>
+                <![CDATA[Sanda]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[Effertz]]>
+                <![CDATA[Rempel]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[Cole, Dare and Kuvalis]]>
+                <![CDATA[Gusikowski and Sons]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[Gilda]]>
+                <![CDATA[Dane]]>
               </value>
             </param>
             <param index="7">
               <value>
-                <![CDATA[Apt. 723]]>
+                <![CDATA[Suite 880]]>
               </value>
             </param>
             <param index="8">
               <value>
-                <![CDATA[The Valley]]>
+                <![CDATA[Thimphu]]>
               </value>
             </param>
             <param index="9">
               <value>
-                <![CDATA[California]]>
+                <![CDATA[Nevada]]>
               </value>
             </param>
             <param index="10">
               <value>
-                <![CDATA[North Elyseberg]]>
+                <![CDATA[East Francene]]>
               </value>
             </param>
             <param index="11">
               <value>
-                <![CDATA[92423]]>
+                <![CDATA[35330]]>
               </value>
             </param>
             <param index="12">
               <value>
-                <![CDATA[1-847-891-5162]]>
+                <![CDATA[1-963-671-4712]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- insertZipcode -->
-        <test-method signature="insertMobile_Number(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:10, instance:automation.testcases.AddressDetailsTest@61386958]" started-at="2023-05-10T22:03:26 AST" name="insertMobile_Number" data-provider="Account" finished-at="2023-05-10T22:03:26 AST" duration-ms="102" status="PASS">
+        <test-method signature="insertMobile_Number(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:10, instance:automation.testcases.AddressDetailsTest@61386958]" started-at="2023-05-11T14:30:40 AST" name="insertMobile_Number" data-provider="Account" finished-at="2023-05-11T14:30:40 AST" duration-ms="83" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Guy]]>
+                <![CDATA[Sanda]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[garth.fay@gmail.com]]>
+                <![CDATA[jed.bergnaum@yahoo.com]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[ahhx9otk]]>
+                <![CDATA[52whr87s5tsc]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[Guy]]>
+                <![CDATA[Sanda]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[Effertz]]>
+                <![CDATA[Rempel]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[Cole, Dare and Kuvalis]]>
+                <![CDATA[Gusikowski and Sons]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[Gilda]]>
+                <![CDATA[Dane]]>
               </value>
             </param>
             <param index="7">
               <value>
-                <![CDATA[Apt. 723]]>
+                <![CDATA[Suite 880]]>
               </value>
             </param>
             <param index="8">
               <value>
-                <![CDATA[The Valley]]>
+                <![CDATA[Thimphu]]>
               </value>
             </param>
             <param index="9">
               <value>
-                <![CDATA[California]]>
+                <![CDATA[Nevada]]>
               </value>
             </param>
             <param index="10">
               <value>
-                <![CDATA[North Elyseberg]]>
+                <![CDATA[East Francene]]>
               </value>
             </param>
             <param index="11">
               <value>
-                <![CDATA[92423]]>
+                <![CDATA[35330]]>
               </value>
             </param>
             <param index="12">
               <value>
-                <![CDATA[1-847-891-5162]]>
+                <![CDATA[1-963-671-4712]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- insertMobile_Number -->
-        <test-method signature="CreateAccount()[pri:11, instance:automation.testcases.AddressDetailsTest@61386958]" started-at="2023-05-10T22:03:26 AST" name="CreateAccount" finished-at="2023-05-10T22:03:29 AST" duration-ms="2855" status="PASS">
+        <test-method signature="CreateAccount()[pri:11, instance:automation.testcases.AddressDetailsTest@61386958]" started-at="2023-05-11T14:30:40 AST" name="CreateAccount" finished-at="2023-05-11T14:30:42 AST" duration-ms="1472" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateAccount -->
       </class> <!-- automation.testcases.AddressDetailsTest -->
       <class name="automation.testcases.RegisterTest">
-        <test-method signature="validateTextisDisplayed()[pri:1, instance:automation.testcases.RegisterTest@2e222612]" started-at="2023-05-10T22:03:18 AST" name="validateTextisDisplayed" finished-at="2023-05-10T22:03:18 AST" duration-ms="72" status="PASS">
+        <test-method signature="validateTextisDisplayed()[pri:1, instance:automation.testcases.RegisterTest@2e222612]" started-at="2023-05-11T14:30:36 AST" name="validateTextisDisplayed" finished-at="2023-05-11T14:30:36 AST" duration-ms="77" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateTextisDisplayed -->
-        <test-method signature="selectTitle()[pri:2, instance:automation.testcases.RegisterTest@2e222612]" started-at="2023-05-10T22:03:18 AST" name="selectTitle" finished-at="2023-05-10T22:03:18 AST" duration-ms="154" status="PASS">
+        <test-method signature="selectTitle()[pri:2, instance:automation.testcases.RegisterTest@2e222612]" started-at="2023-05-11T14:30:36 AST" name="selectTitle" finished-at="2023-05-11T14:30:36 AST" duration-ms="124" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectTitle -->
-        <test-method signature="insertpassword(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:automation.testcases.RegisterTest@2e222612]" started-at="2023-05-10T22:03:19 AST" name="insertpassword" data-provider="Account" finished-at="2023-05-10T22:03:19 AST" duration-ms="108" status="PASS">
+        <test-method signature="insertpassword(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:automation.testcases.RegisterTest@2e222612]" started-at="2023-05-11T14:30:36 AST" name="insertpassword" data-provider="Account" finished-at="2023-05-11T14:30:36 AST" duration-ms="84" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Guy]]>
+                <![CDATA[Sanda]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[garth.fay@gmail.com]]>
+                <![CDATA[jed.bergnaum@yahoo.com]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[ahhx9otk]]>
+                <![CDATA[52whr87s5tsc]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[Guy]]>
+                <![CDATA[Sanda]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[Effertz]]>
+                <![CDATA[Rempel]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[Cole, Dare and Kuvalis]]>
+                <![CDATA[Gusikowski and Sons]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[Gilda]]>
+                <![CDATA[Dane]]>
               </value>
             </param>
             <param index="7">
               <value>
-                <![CDATA[Apt. 723]]>
+                <![CDATA[Suite 880]]>
               </value>
             </param>
             <param index="8">
               <value>
-                <![CDATA[The Valley]]>
+                <![CDATA[Thimphu]]>
               </value>
             </param>
             <param index="9">
               <value>
-                <![CDATA[California]]>
+                <![CDATA[Nevada]]>
               </value>
             </param>
             <param index="10">
               <value>
-                <![CDATA[North Elyseberg]]>
+                <![CDATA[East Francene]]>
               </value>
             </param>
             <param index="11">
               <value>
-                <![CDATA[92423]]>
+                <![CDATA[35330]]>
               </value>
             </param>
             <param index="12">
               <value>
-                <![CDATA[1-847-891-5162]]>
+                <![CDATA[1-963-671-4712]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- insertpassword -->
-        <test-method signature="selectDay()[pri:4, instance:automation.testcases.RegisterTest@2e222612]" started-at="2023-05-10T22:03:19 AST" name="selectDay" finished-at="2023-05-10T22:03:19 AST" duration-ms="79" status="PASS">
+        <test-method signature="selectDay()[pri:4, instance:automation.testcases.RegisterTest@2e222612]" started-at="2023-05-11T14:30:37 AST" name="selectDay" finished-at="2023-05-11T14:30:37 AST" duration-ms="66" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectDay -->
-        <test-method signature="selectMonth()[pri:5, instance:automation.testcases.RegisterTest@2e222612]" started-at="2023-05-10T22:03:20 AST" name="selectMonth" finished-at="2023-05-10T22:03:20 AST" duration-ms="97" status="PASS">
+        <test-method signature="selectMonth()[pri:5, instance:automation.testcases.RegisterTest@2e222612]" started-at="2023-05-11T14:30:37 AST" name="selectMonth" finished-at="2023-05-11T14:30:37 AST" duration-ms="78" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectMonth -->
-        <test-method signature="selectYear()[pri:6, instance:automation.testcases.RegisterTest@2e222612]" started-at="2023-05-10T22:03:20 AST" name="selectYear" finished-at="2023-05-10T22:03:20 AST" duration-ms="120" status="PASS">
+        <test-method signature="selectYear()[pri:6, instance:automation.testcases.RegisterTest@2e222612]" started-at="2023-05-11T14:30:37 AST" name="selectYear" finished-at="2023-05-11T14:30:37 AST" duration-ms="100" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectYear -->
-        <test-method signature="checkNewsletter()[pri:7, instance:automation.testcases.RegisterTest@2e222612]" started-at="2023-05-10T22:03:20 AST" name="checkNewsletter" finished-at="2023-05-10T22:03:21 AST" duration-ms="167" status="PASS">
+        <test-method signature="checkNewsletter()[pri:7, instance:automation.testcases.RegisterTest@2e222612]" started-at="2023-05-11T14:30:37 AST" name="checkNewsletter" finished-at="2023-05-11T14:30:38 AST" duration-ms="143" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkNewsletter -->
-        <test-method signature="checkOptin()[pri:8, instance:automation.testcases.RegisterTest@2e222612]" started-at="2023-05-10T22:03:21 AST" name="checkOptin" finished-at="2023-05-10T22:03:21 AST" duration-ms="149" status="PASS">
+        <test-method signature="checkOptin()[pri:8, instance:automation.testcases.RegisterTest@2e222612]" started-at="2023-05-11T14:30:38 AST" name="checkOptin" finished-at="2023-05-11T14:30:38 AST" duration-ms="123" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkOptin -->
-        <test-method signature="scrollAction()[pri:9, instance:automation.testcases.RegisterTest@2e222612]" started-at="2023-05-10T22:03:21 AST" name="scrollAction" finished-at="2023-05-10T22:03:21 AST" duration-ms="15" status="PASS">
+        <test-method signature="scrollAction()[pri:9, instance:automation.testcases.RegisterTest@2e222612]" started-at="2023-05-11T14:30:38 AST" name="scrollAction" finished-at="2023-05-11T14:30:38 AST" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- scrollAction -->
