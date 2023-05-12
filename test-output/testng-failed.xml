@@ -7,13 +7,14 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="automation.testcases.ConfirmCreateadaccountTest">
+      <class name="automation.testcases.HomePageTest">
         <methods>
+          <include name="clickSignup"/>
           <include name="afterSuite"/>
-          <include name="Contiune"/>
           <include name="loadConfig"/>
+          <include name="setup" invocation-numbers="0"/>
         </methods>
-      </class> <!-- automation.testcases.ConfirmCreateadaccountTest -->
+      </class> <!-- automation.testcases.HomePageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
